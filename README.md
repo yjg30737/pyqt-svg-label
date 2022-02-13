@@ -7,6 +7,9 @@ PyQt SVG icon only label
 ## Setup
 ```pip3 install git+https://github.com/yjg30737/pyqt-svg-label.git --upgrade```
 
+## Usage
+* ```setSvgFile(filename: str)``` to set svg file.
+
 ## Example
 Code Sample
 ```python
@@ -53,3 +56,6 @@ Result
 ![image](https://user-images.githubusercontent.com/55078043/153744599-c563f628-de57-48b1-941c-5b5f3fe4621c.png)
 
 If ```iconLbl.setFixedSize(title_lbl_size * 2, title_lbl_size * 2)``` is not included in the code sample, size of svg icon will be adjusted to fit the size of the window.  
+
+## See Also
+<a href="https://github.com/yjg30737/pyqt-svg-icon-text-widget.git">pyqt-svg-icon-text-widget</a>
