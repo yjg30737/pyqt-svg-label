@@ -25,8 +25,11 @@ class IconTitleWidget(QWidget):
 
         titleLbl = QLabel()
         titleLbl.setText('Dark Notepad')
+        
+        # get the point size of the titleLbl's font
         title_lbl_size = titleLbl.font().pointSize()
 
+        # to match the iconLbl's size with titleLbl's font size (usually double size is appropriate)
         iconLbl.setFixedSize(title_lbl_size * 2, title_lbl_size * 2)
 
         lay = QHBoxLayout()
