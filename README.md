@@ -58,4 +58,4 @@ Result
 If ```iconLbl.setFixedSize(title_lbl_size * 2, title_lbl_size * 2)``` is not included in the code sample, size of svg icon will be adjusted to fit the size of the window.  
 
 ## See Also
-<a href="https://github.com/yjg30737/pyqt-svg-icon-text-widget.git">pyqt-svg-icon-text-widget</a>
+* <a href="https://github.com/yjg30737/pyqt-svg-icon-text-widget.git">pyqt-svg-icon-text-widget</a>
