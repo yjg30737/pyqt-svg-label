@@ -1,0 +1,1 @@
+from .svgLabel import SvgLabel
