@@ -18,7 +18,15 @@ class SvgLabel(QLabel):
         return super().paintEvent(e)
 
     def setSvgFile(self, filename: str):
-        caller_path = os.path.dirname(inspect.getframeinfo(sys._getframe(1)).filename)
+        stack_lst = inspect.stack()
+        ico_frame_idx = 0
+        for i in range(len(stack_lst)):
+            context = stack_lst[i].code_context[0]
+            if context.find(filename) == -1:
+                pass
+            else:
+                ico_frame_idx = i
+        caller_path = os.path.dirname(stack_lst[ico_frame_idx].filename)
         filename = os.path.join(caller_path, filename).replace('\\', '/')
         self.__renderer = QSvgRenderer(filename)
         self.resize(self.__renderer.defaultSize())
