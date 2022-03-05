@@ -10,6 +10,9 @@ PyQt SVG icon only label
 ## Usage
 * ```setSvgFile(filename: str)``` to set svg file.
 
+## Included Packages
+* <a href="https://github.com/yjg30737/python-get-absolute-resource-path.git">python-get-absolute-resource-path</a>
+
 ## Example
 Code Sample
 ```python
