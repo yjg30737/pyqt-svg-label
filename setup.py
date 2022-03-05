@@ -10,6 +10,7 @@ setup(
     description='PyQt SVG icon only label',
     url='https://github.com/yjg30737/pyqt-svg-label.git',
     install_requires=[
-        'PyQt5>=5.8'
+        'PyQt5>=5.8',
+        'python-get-absolute-resource-path @ git+https://git@github.com/yjg30737/python-get-absolute-resource-path.git@main'
     ]
 )
