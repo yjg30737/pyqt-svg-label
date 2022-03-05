@@ -3,6 +3,7 @@ import os, inspect, sys
 from PyQt5.QtGui import QPainter
 from PyQt5.QtSvg import QSvgRenderer
 from PyQt5.QtWidgets import QLabel
+from python_get_absolute_resource_path.getAbsoulteResourcePath import get_absolute_resource_path
 
 
 class SvgLabel(QLabel):
@@ -18,15 +19,6 @@ class SvgLabel(QLabel):
         return super().paintEvent(e)
 
     def setSvgFile(self, filename: str):
-        stack_lst = inspect.stack()
-        ico_frame_idx = 0
-        for i in range(len(stack_lst)):
-            context = stack_lst[i].code_context[0]
-            if context.find(filename) == -1:
-                pass
-            else:
-                ico_frame_idx = i
-        caller_path = os.path.dirname(stack_lst[ico_frame_idx].filename)
-        filename = os.path.join(caller_path, filename).replace('\\', '/')
+        filename = get_absolute_resource_path(filename)
         self.__renderer = QSvgRenderer(filename)
         self.resize(self.__renderer.defaultSize())
