@@ -9,7 +9,7 @@ If you want to use button which supports SVG icon, see <a href="https://github.c
 * PyQt5 >= 5.8
 
 ## Setup
-`pip3 install git+https://github.com/yjg30737/pyqt-svg-label.git --upgrade`
+`python -m pip install pyqt-svg-label`
 
 ## Usage
 * `setSvgFile(filename: str)` to set svg file.
