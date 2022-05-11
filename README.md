@@ -1,6 +1,10 @@
 # pyqt-svg-label
 PyQt QLabel which supports SVG icon
 
+This is useful to set svg icon.
+
+If you want to use button which supports SVG icon, see <a href="https://github.com/yjg30737/pyqt-svg-icon-pushbutton.git">pyqt-svg-icon-pushbutton</a>.
+
 ## Requirements
 * PyQt5 >= 5.8
 
