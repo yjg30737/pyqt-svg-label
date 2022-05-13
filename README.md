@@ -15,7 +15,7 @@ If you want to use button which supports SVG icon, see <a href="https://github.c
 * `setSvgFile(filename: str)` to set svg file.
 
 ## Included Packages
-* <a href="https://github.com/yjg30737/python-get-absolute-resource-path.git">python-get-absolute-resource-path</a>
+* <a href="https://github.com/yjg30737/absresgetter.git">absresgetter</a>
 
 ## Example
 Code Sample
