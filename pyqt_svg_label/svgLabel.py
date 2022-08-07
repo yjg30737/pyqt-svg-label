@@ -1,6 +1,6 @@
-from PyQt5.QtGui import QPainter
-from PyQt5.QtSvg import QSvgRenderer
-from PyQt5.QtWidgets import QLabel
+from qtpy.QtGui import QPainter
+from qtpy.QtSvg import QSvgRenderer
+from qtpy.QtWidgets import QLabel
 import absresgetter
 
 

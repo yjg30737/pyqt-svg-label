@@ -20,6 +20,7 @@ setup(
     long_description=long_description,
     install_requires=[
         'PyQt5>=5.8',
+        'qtpy',
         'absresgetter>=0.0.1'
     ]
 )
