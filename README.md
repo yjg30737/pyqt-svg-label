@@ -15,6 +15,7 @@ If you want to use button which supports SVG icon, see <a href="https://github.c
 * `setSvgFile(filename: str)` to set svg file.
 
 ## Included Packages
+* <a href="https://github.com/spyder-ide/qtpy.git">qtpy</a> - Make this module support not only PyQt5 but also PyQt6, PySide2, PySide6
 * <a href="https://github.com/yjg30737/absresgetter.git">absresgetter</a>
 
 ## Example
