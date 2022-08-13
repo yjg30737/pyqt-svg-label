@@ -1,2 +1,1 @@
-qtpy
 absresgetter>=0.0.1
